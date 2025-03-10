@@ -30,6 +30,7 @@
                 <a class="nav-link" href={{ route('courts.create')}}>Book Courts</a>
               </li>
             </ul>
+            @include ('layouts.navAuth')
           </div>
         </nav>
         
